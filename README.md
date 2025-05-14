@@ -50,17 +50,18 @@ CNN_Handwritten_Number_Recognition/
 1. Clone the repository and install dependencies:
    ```bash
    pip install -r requirements.txt
-   Note: python3.10 is recommended.
+Note: python3.10 is recommended.
 
 2. Run the script:
-    python cnn_number_recognition.py
-   Note: Before running the script change the paths for input_images, reference_image, model.h5
+   ```bash
+   python cnn_number_recognition.py
+Note: Before running the script change the paths for input_images, reference_image, model.h5
 
-3. Check output.csv for predicted marks.
+4. Check output.csv for predicted marks.
 
 ---
 
-### Model Info
+## Model Info
 
 The digit recognition model is a lightweight CNN trained to recognize single-digit and multi-digit handwritten numbers.
 
