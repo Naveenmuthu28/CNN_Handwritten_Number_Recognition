@@ -25,7 +25,7 @@ In this project, I built a handwritten number recognition system designed to aut
 ---
 
 ## Project Structure
-
+```
 CNN_Handwritten_Number_Recognition/
 │
 ├── input_images/ # Folder containing scanned answer sheet images
@@ -40,7 +40,7 @@ CNN_Handwritten_Number_Recognition/
 ├── output.csv # CSV file storing prediction results
 ├── requirements.txt # Required Python packages
 └── README.md # Project documentation
-
+```
 ---
 
 ## How to run
