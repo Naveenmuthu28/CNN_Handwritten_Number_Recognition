@@ -9,9 +9,7 @@ In this project, I built a handwritten number recognition system designed to aut
 ## How It Works
 
 1. A clean reference image of the blank answer sheet is used to define Region of Interest (ROI) coordinates for all the mark entry boxes.
-2. When new filled answer sheets are provided:
-   - The system automatically detects and crops each predefined ROI.
-   - Each cropped image is passed to a pre-trained CNN model that predicts the handwritten number.
+2. Each cropped image is passed to a pre-trained CNN model that predicts the handwritten number.
 3. Multi-digit numbers are recognized and results are saved in a structured CSV file for analysis or digital storage.
 
 ---
